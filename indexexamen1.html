@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Call of Duty: Black Ops II</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz de Call of Duty: Black Ops II</h1>
+    </header>
+    <form id="quizForm">
+        <div class="question">
+            <h2>1. ¿Cuáles de los siguientes personajes son principales en la campaña de Call of Duty: Black Ops II?</h2>
+            <label><input type="checkbox" name="q1" value="David Mason"> David Mason</label>
+            <label><input type="checkbox" name="q1" value="Javier Salazar"> Javier Salazar</label>
+            <label><input type="checkbox" name="q1" value="Mike Harper"> Mike Harper</label>
+            <label><input type="checkbox" name="q1" value="Raul Menéndez"> Raul Menéndez</label>
+        </div>
+        <div class="question">
+            <h2>2. ¿Quién es el villano principal de la campaña de Call of Duty: Black Ops II?</h2>
+            <input type="text" name="q2">
+        </div>
+        <div class="question">
+            <h2>3. ¿Quién es el traidor en la campaña de Call of Duty: Black Ops II?</h2>
+            <label><input type="radio" name="q3" value="Frank Woods"> Frank Woods</label>
+            <label><input type="radio" name="q3" value="David Mason"> David Mason</label>
+            <label><input type="radio" name="q3" value="Javier Salazar"> Javier Salazar</label>
+            <label><input type="radio" name="q3" value="Alex Mason"> Alex Mason</label>
+        </div>
+        <div class="question">
+            <h2>4. ¿Dónde es la última misión de la campaña de Call of Duty: Black Ops II?</h2>
+            <label><input type="radio" name="q4" value="Nicaragua"> Nicaragua</label>
+            <label><input type="radio" name="q4" value="Estados Unidos"> Estados Unidos</label>
+            <label><input type="radio" name="q4" value="Yemen"> Yemen</label>
+            <label><input type="radio" name="q4" value="Haití"> Haití</label>
+        </div>
+        <div class="question">
+            <h2>5. ¿Quién es la hermana de Raul Menéndez?</h2>
+            <label><input type="radio" name="q5" value="Soren"> Soren</label>
+            <label><input type="radio" name="q5" value="Chloe"> Chloe</label>
+            <label><input type="radio" name="q5" value="Joséfina"> Joséfina</label>
+            <label><input type="radio" name="q5" value="No tenía"> No tenía</label>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+    <div id="results"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
